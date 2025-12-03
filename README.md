@@ -1,3 +1,1 @@
-# wookey Portfolio
-
-Developer. since 2017
+# yudinee Portfolio
