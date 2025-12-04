@@ -1,4 +1,4 @@
-import Me from './Me'
+
 import Major from './Major'
 import Skills from './Skills'
 import Projects from './Projects'
@@ -11,8 +11,7 @@ const Contents = () => {
     return (
         <div id="main" className="wrapper style1">
             <div className="container">
-                <Me></Me>
-                <StyleSperator></StyleSperator>
+                
 
                 <Major></Major>
                 <StyleSperator></StyleSperator>

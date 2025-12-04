@@ -17,6 +17,12 @@ import TableTopiaOutLine from "../projects/TableTopiaOutLine"
 import TableTopiaRoll from "../projects/TableTopiaRoll"
 import WaitingProblem from "../projects/WaitingProblem"
 import TableTopiaMainPage from "../projects/TableTopiaMainPage"
+import PeachStoreSkills from "../projects/PeachStoreSkills"
+import PeachStoreOutLine from "../projects/PeachStoreOutLine"
+import PeachStoreRoll from "../projects/PeachStoreRoll"
+import MyPage from "../projects/MyPage"
+import Order from "../projects/Order"
+import Review from "../projects/Review";
 
 import Bunjang from "../images/company/bunjang.png"
 import Ibksystem from "../images/company/ibksystem.png"
@@ -36,8 +42,13 @@ const Projects = () => {
             <TableTopiaMainPage></TableTopiaMainPage>
             <StyleNoLineSperator></StyleNoLineSperator>
 
-            <StyleCompany><StyleCompanyIcon theme={theme} src={Ibksystem} title="IBK시스템" alt="" /> IBK시스템 | 2020.03 - 2021.07</StyleCompany>
-            <HfRenewal></HfRenewal>
+            <StyleCompany>peachstore | 2025.07.10 - 2025.08.05</StyleCompany>
+            <PeachStoreOutLine></PeachStoreOutLine>
+            <PeachStoreSkills></PeachStoreSkills>
+            <PeachStoreRoll></PeachStoreRoll>
+            <MyPage></MyPage>
+            <Order></Order>
+            <Review></Review>
             <StyleNoLineSperator></StyleNoLineSperator>
 
             <StyleCompany><StyleCompanyIcon theme={theme} src={Tmon} title="티몬" alt="" /> 티몬 | 2018.01 - 2020.02</StyleCompany>

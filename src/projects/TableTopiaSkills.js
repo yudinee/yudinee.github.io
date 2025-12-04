@@ -10,7 +10,7 @@ const TableTopiaSkills = () => {
 
             <div style={{ marginBottom: '10px' }}>
                 <span style={{ color: '#aaa', fontSize: '0.9em' }}>- </span>
-                <span style={{ color: '#ddd', fontSize: '0.9em' }}>React, JavaScript, HTML5, CSS3, Bootstrap</span>
+                <span style={{ color: '#ddd', fontSize: '0.9em' }}>React, JavaScript, HTML5, CSS3</span>
             </div>
 
             <div style={{ marginBottom: '10px' }}>
