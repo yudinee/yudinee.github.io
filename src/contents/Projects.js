@@ -22,7 +22,13 @@ import PeachStoreOutLine from "../projects/PeachStoreOutLine"
 import PeachStoreRoll from "../projects/PeachStoreRoll"
 import MyPage from "../projects/MyPage"
 import Order from "../projects/Order"
-import Review from "../projects/Review";
+import Review from "../projects/Review"
+import WmsSkills from "../projects/WmsSkiils"
+import WmsOutLine from "../projects/WmsOutLine"
+import WmsRoll from "../projects/WmsRoll"
+import WmsMembers from "../projects/WmsMembers"
+import Supplier from "../projects/Supplier"
+import WmsChat from "../projects/WmsChat"
 
 import Bunjang from "../images/company/bunjang.png"
 import Ibksystem from "../images/company/ibksystem.png"
@@ -51,10 +57,14 @@ const Projects = () => {
             <Review></Review>
             <StyleNoLineSperator></StyleNoLineSperator>
 
-            <StyleCompany><StyleCompanyIcon theme={theme} src={Tmon} title="티몬" alt="" /> 티몬 | 2018.01 - 2020.02</StyleCompany>
-            <RoulettePromotion></RoulettePromotion>
-            <BehindCoupon></BehindCoupon>
-            <CouponAdmin></CouponAdmin>
+            <StyleCompany>Shinlogis-WMS | 2025.06.02 - 2025.06.29</StyleCompany>
+            <WmsOutLine></WmsOutLine>
+            <WmsSkills></WmsSkills>
+            <WmsRoll></WmsRoll>
+            <WmsMembers></WmsMembers>
+            <Supplier></Supplier>
+            <WmsChat></WmsChat>
+       
 
             {/* <StyleDivision>틈틈히 만들어봤어요</StyleDivision> */}
             {/* <PomPom></PomPom> */}
