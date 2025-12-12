@@ -26,6 +26,7 @@ export const StyleContents = styled.ul``;
 export const StyleLookBack = styled.div`
     margin-top: -15px;
     margin-bottom: 20px;
+    white-space: pre-line;
 `;
 
 export const StyleContent = styled.li`
