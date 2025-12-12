@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.05e6c4f9.css",
-    "main.js": "/static/js/main.78707cff.js",
+    "main.js": "/static/js/main.39323807.js",
     "static/js/787.c03469c6.chunk.js": "/static/js/787.c03469c6.chunk.js",
     "static/media/TableTopia1.png": "/static/media/TableTopia1.c4033c3b53e608494932.png",
     "static/media/KakaoTalk_Photo_2025-12-03-15-24-02.jpeg": "/static/media/KakaoTalk_Photo_2025-12-03-15-24-02.1c9f76a5eed8a62abbcf.jpeg",
@@ -73,11 +73,11 @@
     "index.html": "/index.html",
     "static/media/arrow.svg": "/static/media/arrow.41c8f9a12e5a847f153f.svg",
     "main.05e6c4f9.css.map": "/static/css/main.05e6c4f9.css.map",
-    "main.78707cff.js.map": "/static/js/main.78707cff.js.map",
+    "main.39323807.js.map": "/static/js/main.39323807.js.map",
     "787.c03469c6.chunk.js.map": "/static/js/787.c03469c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05e6c4f9.css",
-    "static/js/main.78707cff.js"
+    "static/js/main.39323807.js"
   ]
 }
