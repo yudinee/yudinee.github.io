@@ -19,7 +19,6 @@ import Bootstrap from "../images/tech_icon/bootstrap.png"
 
 // Database
 import Mysql from "../images/tech_icon/mysql.png"
-import Redis from "../images/tech_icon/redis.png"
 
 // Collaboration & Version Control
 import Git from "../images/tech_icon/git.png"
@@ -49,7 +48,6 @@ const Skills = () => {
 
                 <StyleSkillLevel>Database</StyleSkillLevel>
                 <StyleTechImage theme={theme} src={Mysql}/>
-                <StyleTechImage theme={theme} src={Redis}/>
 
                 <StyleSkillLevel>Collaboration & Version Control</StyleSkillLevel>
                 <StyleTechImage theme={theme} src={Git}/>
