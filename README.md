@@ -26,9 +26,9 @@ GitHub Pages (yudinee.github.io)
 
 ## 🛠 Tech Stack
 
-- **Backend**: Java, Spring Boot, JPA
-- **Database**: MySQL, Redis
-- **Frontend**: React
+- **Backend**: Java, Spring Boot, Spring MVC, JPA/Hibernate, MyBatis
+- **Database**: MySQL
+- **Frontend**: HTML5, CSS3, JavaScript, React
 - **DevOps**: GitHub Actions, GitHub Pages
 
 ---
