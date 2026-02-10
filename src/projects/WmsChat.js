@@ -58,10 +58,7 @@ const WmsChat = () => {
                           이번 경험을 통해 시스템 구조 설계, 데이터 흐름 이해, 실시간 통신 구현 능력을 모두 강화할 수 있었으며, 향후 더 복잡한 서비스 구현에도 자신감을 얻었습니다.
                         </StyleContents>
                         <StyleContents>
-                            <br />
-                            👏 이번 프로젝트에 대한 자세한 자료(PPT)는 아래 링크에서 확인 가능합니다.
-                            <br />
-                            <a href="https://docs.google.com/presentation/d/1PITS4AdTCD2a7TQgUccYgOctPyhp4ryY/edit?slide=id.p1#slide=id.p1" target="_blank" rel="noopener noreferrer">📎 프로젝트 PPT 보기</a>
+                            <a href="https://github.com/zero5ive/Shinlogis-WMS" target="_blank" rel="noopener noreferrer">📎 GitHub Repository</a>
                         </StyleContents>
                         
                    

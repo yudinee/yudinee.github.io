@@ -60,10 +60,7 @@ const Review = () => {
                            이번 경험을 통해 새로운 기술을 적용할 때 문제 해결 과정과 구조화된 접근의 중요성을 배울 수 있었습니다.
                         </StyleContents>
                         <StyleContents>
-                            <br />
-                            👏 이번 프로젝트에 대한 자세한 자료(PPT)는 아래 링크에서 확인 가능합니다.
-                            <br />
-                            <a href="https://docs.google.com/presentation/d/1tnzRpMfacQmi7ylD0i0u9UTEoVutukby/edit?slide=id.p1#slide=id.p1" target="_blank" rel="noopener noreferrer">📎 프로젝트 PPT 보기</a>
+                            <a href="https://github.com/zero5ive/Peach-Store" target="_blank" rel="noopener noreferrer">📎 GitHub Repository</a>
                         </StyleContents>
                         
                    

@@ -40,6 +40,7 @@ const Projects = () => {
             <StyleDivision>다양한 프로젝트를 경험을 했어요</StyleDivision>
 
             <StyleCompany>테이블토피아 | 2025.09.08 - 2025.10.20</StyleCompany>
+            
             <TableTopiaOutLine></TableTopiaOutLine>
             <TableTopiaSkills></TableTopiaSkills>
             <TableTopiaRoll></TableTopiaRoll>

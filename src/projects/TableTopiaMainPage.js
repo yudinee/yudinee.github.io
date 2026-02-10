@@ -62,10 +62,7 @@ const WaitingProblem = () => {
                             이번 프로젝트를 통해 고객 편의성과 매장 효율을 동시에 개선하는 실무형 서비스를 설계하고 구현하는 능력을 강화할 수 있었습니다.
                         </StyleContents>
                         <StyleContents>
-                            <br />
-                            👏 이번 프로젝트에 대한 자세한 자료(PPT)는 아래 링크에서 확인 가능합니다.
-                            <br />
-                            <a href="https://docs.google.com/presentation/d/1Ug0KJFliuStT-ytbP-ySykoTjKB5IvKy/edit?slide=id.p2#slide=id.p2" target="_blank" rel="noopener noreferrer">📎 프로젝트 PPT 보기</a>
+                            <a href="https://github.com/zero5ive/Tabletopia" target="_blank" rel="noopener noreferrer">📎 GitHub Repository</a>
                         </StyleContents>
                         
                    

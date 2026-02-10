@@ -10,12 +10,12 @@ const WmsSkills = () => {
 
             <div style={{ marginBottom: '10px' }}>
                 <span style={{ color: '#aaa', fontSize: '0.9em' }}>- </span>
-                <span style={{ color: '#ddd', fontSize: '0.9em' }}>Java, Java Swing, Apache Tomcat</span>
+                <span style={{ color: '#ddd', fontSize: '0.9em' }}>Java, Java Swing, Socket Programming (TCP/IP)</span>
             </div>
 
             <div style={{ marginBottom: '10px' }}>
                 <span style={{ color: '#aaa', fontSize: '0.9em' }}>- </span>
-                <span style={{ color: '#ddd', fontSize: '0.9em' }}>MySQL</span>
+                <span style={{ color: '#ddd', fontSize: '0.9em' }}>MySQL, Apache Tomcat</span>
             </div>
 
             <div style={{ marginBottom: '10px' }}>
