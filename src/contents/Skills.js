@@ -4,7 +4,7 @@ const categories = [
     {
         label: 'Backend',
         color: '#3b82f6',
-        skills: ['Java', 'Spring Boot', 'Spring Framework', 'Spring Security', 'JPA', 'MyBatis', 'Maven', 'Gradle'],
+        skills: ['Java', 'Spring Boot', 'Spring Framework', 'JPA', 'MyBatis', 'Maven', 'Gradle'],
     },
     {
         label: 'Frontend',
@@ -19,7 +19,7 @@ const categories = [
     {
         label: 'Infrastructure & Tools',
         color: '#fb923c',
-        skills: ['AWS', 'Docker', 'Git', 'GitHub', 'Jira', 'WebSocket', 'TCP/IP Socket'],
+        skills: ['Docker', 'Git', 'GitHub', 'Jira', 'WebSocket', 'TCP/IP Socket'],
     },
 ]
 
