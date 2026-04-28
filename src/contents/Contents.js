@@ -1,8 +1,6 @@
 
-import Major from './Major'
 import Skills from './Skills'
 import Projects from './Projects'
-import LookBack from './LookBack'
 import Class from './Class'
 import Contact from './Contact'
 import { StyleSperator } from '../styles/StyleCommon'
@@ -11,22 +9,15 @@ const Contents = () => {
     return (
         <div id="main" className="wrapper style1">
             <div className="container">
-                
 
-                <Major></Major>
+                <div id="skills"><Skills></Skills></div>
                 <StyleSperator></StyleSperator>
 
-                <Skills></Skills>
+                <div id="projects"><Projects></Projects></div>
                 <StyleSperator></StyleSperator>
 
-                <Projects></Projects>
+                <div id="class"><Class></Class></div>
                 <StyleSperator></StyleSperator>
-
-                <Class></Class>
-                <StyleSperator></StyleSperator>
-{/* 
-                <LookBack></LookBack>
-                <StyleSperator></StyleSperator> */}
 
                 <Contact></Contact>
             </div>

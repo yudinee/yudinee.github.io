@@ -29,11 +29,6 @@ const WmsMembers = () => {
                             <StyleContent>비밀번호 암호화 저장으로 보안 강화</StyleContent>
                             <StyleContent>이메일 기반 비밀번호 찾기 자동화</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>주요효과</StyleContentsTitle>
-                        <StyleContents>
-                            <StyleContent>비밀번호 암호화 적용으로 보안 수준 강화 및 개인정보 보호</StyleContent>
-                            <StyleContent>이메일 기반 복구 기능으로 사용자 편의성 및 서비스 신뢰도 상승</StyleContent>
-                        </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={wms2} title="wms2" alt="" style={{width: '400px', maxHeight: '240px', objectFit: 'contain'}} />
                             <StyleImage theme={theme} src={wms3} title="wms3" alt="" style={{width: '400px', maxHeight: '240px', objectFit: 'contain'}} />

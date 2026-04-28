@@ -29,11 +29,9 @@ const WaitingProblem = () => {
                             <StyleContent>중복 인서트 및 순서 꼬임 방지, 안정적 웨이팅/예약 처리</StyleContent>
                             <StyleContent>사용자에게 정확한 대기 순서 제공, 혼선 방지</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>주요효과</StyleContentsTitle>
+                        <StyleContentsTitle>성과</StyleContentsTitle>
                         <StyleContents>
-                            <StyleContent>안정적인 웨이팅/예약 처리, 고객 만족도 향상</StyleContent>
-                            <StyleContent>직원 개입 최소화, 시스템 신뢰성 확보</StyleContent>
-                            <StyleContent>정량적 성과: 동시 예약 오류 0건, 중복 예약 발생 없음</StyleContent>
+                            <StyleContent>동시 예약 오류 0건, 중복 예약 발생 없음</StyleContent>
                         </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={TableTopia3} title="테이블토피아1" alt="" style={{width: '400px'}} />

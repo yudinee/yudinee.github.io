@@ -31,13 +31,6 @@ const Order = () => {
                             <StyleContent>반복되는 조회 로직은 재사용 가능한 Mapper로 분리하여 중복 제거</StyleContent>
                             <StyleContent>SQL이 XML에서 관리되므로 변경 시 영향 범위가 뚜렷하고 유지보수 용이</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>주요효과</StyleContentsTitle>
-                        <StyleContents>
-                            <StyleContent>서비스 로직에서 SQL이 제거되어 비즈니스 로직이 명확하게 분리</StyleContent>
-                            <StyleContent>복잡한 주문·등급 조회도 구조적으로 관리 가능</StyleContent>
-                            <StyleContent>SQL 변경 시 리스크 감소 및 개발 안정성 향상</StyleContent>
-                            <StyleContent>장기적으로 기능 확장에 유리한 구조 확보</StyleContent>
-                        </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={PeachStore2} title="피치스토어2" alt="" style={{width: '400px'}} />
                             <StyleImage theme={theme} src={PeachStore3} title="피치스토어3" alt="" style={{width: '400px'}} />

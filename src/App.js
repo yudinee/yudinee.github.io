@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+import Nav from './contents/Nav'
 import Intro from './contents/Intro'
 import Contents from './contents/Contents'
 
@@ -20,6 +21,7 @@ const App = () => {
 
   return (
     <div id='page-wrapper'>
+      <Nav></Nav>
       <Intro></Intro>
       <Contents></Contents>
     </div>

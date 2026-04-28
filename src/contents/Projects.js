@@ -1,74 +1,84 @@
-import theme from "../styles/Theme";
+import { StyleDivision } from '../styles/StyleCommon'
+import ProjectCard from '../projects/ProjectCard'
 
-import { StyleCompany, StyleCompanyIcon } from "../styles/StyleProjects"
-import { StyleSperator, StyleDivision, StyleNoLineSperator } from '../styles/StyleCommon'
-
-import Waiting from "../projects/Waiting";
-import VerticalAdmin from "../projects/VerticalAdmin"
-import Catalog from "../projects/Catalog"
-import Inspection from "../projects/Inspection"
-import CouponAdmin from "../projects/CouponAdmin"
-import BehindCoupon from "../projects/BehindCoupon"
-import RoulettePromotion from "../projects/RoulettePromotion"
-import HfRenewal from "../projects/HfRenewal"
-import PomPom from "../projects/PomPom"
-import TableTopiaSkills from "../projects/TableTopiaSkills"
 import TableTopiaOutLine from "../projects/TableTopiaOutLine"
 import TableTopiaRoll from "../projects/TableTopiaRoll"
+import Waiting from "../projects/Waiting"
 import WaitingProblem from "../projects/WaitingProblem"
 import TableTopiaMainPage from "../projects/TableTopiaMainPage"
-import PeachStoreSkills from "../projects/PeachStoreSkills"
+
 import PeachStoreOutLine from "../projects/PeachStoreOutLine"
 import PeachStoreRoll from "../projects/PeachStoreRoll"
-import MyPage from "../projects/MyPage"
 import Order from "../projects/Order"
 import Review from "../projects/Review"
-import WmsSkills from "../projects/WmsSkiils"
+
 import WmsOutLine from "../projects/WmsOutLine"
 import WmsRoll from "../projects/WmsRoll"
 import WmsMembers from "../projects/WmsMembers"
 import Supplier from "../projects/Supplier"
 import WmsChat from "../projects/WmsChat"
 
-import Bunjang from "../images/company/bunjang.png"
-import Ibksystem from "../images/company/ibksystem.png"
-import Tmon from "../images/company/tmon.png"
-
 const Projects = () => {
     return (
         <div>
             <StyleDivision>다양한 프로젝트를 경험을 했어요</StyleDivision>
+            <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(2, 1fr)',
+                gap: '24px',
+            }}
+                className="project-grid"
+            >
+                <ProjectCard
+                    icon="🍽️"
+                    title="테이블토피아"
+                    subtitle="실시간 레스토랑 예약 & 웨이팅 플랫폼 with 생성형 AI"
+                    period="2025.09 ~ 2025.10"
+                    team="5인 팀"
+                    tech={['Java21', 'Spring Boot3', 'Spring Security', 'JPA', 'React', 'MySQL', 'Redis', 'WebSocket', 'JWT', 'AWS']}
+                    myRole="웨이팅 관리 · 사용자 페이지 개발"
+                    github="https://github.com/zero5ive/Tabletopia"
+                >
+                    <TableTopiaOutLine />
+                    <TableTopiaRoll />
+                    <Waiting />
+                    <WaitingProblem />
+                    <TableTopiaMainPage />
+                </ProjectCard>
 
-            <StyleCompany>테이블토피아 | 2025.09.08 - 2025.10.20</StyleCompany>
-            
-            <TableTopiaOutLine></TableTopiaOutLine>
-            <TableTopiaSkills></TableTopiaSkills>
-            <TableTopiaRoll></TableTopiaRoll>
-            <Waiting></Waiting>
-            <WaitingProblem></WaitingProblem>
-            <TableTopiaMainPage></TableTopiaMainPage>
-            <StyleNoLineSperator></StyleNoLineSperator>
+                <ProjectCard
+                    icon="🛒"
+                    title="PeachStore"
+                    subtitle="전자기기 전문 쇼핑몰 웹 서비스"
+                    period="2025.07 ~ 2025.08"
+                    team="5인 팀"
+                    tech={['Java', 'Spring Framework', 'MyBatis', 'JSP', 'MySQL', 'Bootstrap', 'jQuery']}
+                    myRole="마이페이지 · Q&A 기능 개발"
+                    github="https://github.com/zero5ive/Peach-Store"
+                >
+                    <PeachStoreOutLine />
+                    <PeachStoreRoll />
+                    <Order />
+                    <Review />
+                </ProjectCard>
 
-            <StyleCompany>peachstore | 2025.07.10 - 2025.08.05</StyleCompany>
-            <PeachStoreOutLine></PeachStoreOutLine>
-            <PeachStoreSkills></PeachStoreSkills>
-            <PeachStoreRoll></PeachStoreRoll>
-            <MyPage></MyPage>
-            <Order></Order>
-            <Review></Review>
-            <StyleNoLineSperator></StyleNoLineSperator>
-
-            <StyleCompany>Shinlogis-WMS | 2025.06.02 - 2025.06.29</StyleCompany>
-            <WmsOutLine></WmsOutLine>
-            <WmsSkills></WmsSkills>
-            <WmsRoll></WmsRoll>
-            <WmsMembers></WmsMembers>
-            <Supplier></Supplier>
-            <WmsChat></WmsChat>
-       
-
-            {/* <StyleDivision>틈틈히 만들어봤어요</StyleDivision> */}
-            {/* <PomPom></PomPom> */}
+                <ProjectCard
+                    icon="🏭"
+                    title="Shinlogis-WMS"
+                    subtitle="식품 재고 창고 관리 시스템 (웹 기반 WMS)"
+                    period="2025.06.02 ~ 2025.06.29"
+                    team="팀 프로젝트"
+                    tech={['Java', 'Java Swing', 'Socket', 'MySQL', 'Apache Tomcat', 'Jakarta Mail', 'JFreeChart']}
+                    myRole="회원관리 · 공급사관리 · 채팅 기능 개발"
+                    github="https://github.com/zero5ive/Shinlogis-WMS"
+                >
+                    <WmsOutLine />
+                    <WmsRoll />
+                    <WmsMembers />
+                    <Supplier />
+                    <WmsChat />
+                </ProjectCard>
+            </div>
         </div>
     )
 }

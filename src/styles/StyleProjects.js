@@ -39,36 +39,28 @@ export const StyleContentsTitle = styled.h4`
 
 export const StyleContentsArea = styled.div`
     display: flex;
-    flex-wrap: nowrap;
-
-    @media ${({ theme }) => theme.device.mobile} {
-        display: block;
-    }
+    flex-direction: column;
+    gap: 12px;
 `;
 
 
 export const StyleContentsLeft = styled.div`
-    flex-shrink: 0;
-    width: 350px;
+    width: 100%;
 `;
 
 export const StyleContentsRight = styled.div`
-    flex-grow: 1;
-    margin-left: 15px;
+    width: 100%;
 `;
 
 export const StyleImages = styled.div`
     display: flex;
+    margin-top: 12px;
 `;
 
 export const StyleImage = styled.img`
-    width: 200px;
+    width: 400px;
     margin: 2px;
     border-radius: 5px;
-
-    @media ${({ theme }) => theme.device.mobile} {
-        width: 24%;
-    }
 `;
 
 export const StyleCompanyIcon = styled.img`
@@ -76,7 +68,7 @@ export const StyleCompanyIcon = styled.img`
     margin-top: 10px;
     margin-right: 3px;
 
-    @media ${({ theme }) => theme.device.mobile} {
+    @media screen and (max-width: 425px) {
         width: 15px;
     }
 `;
@@ -86,7 +78,7 @@ export const StyleProjectImage = styled.img`
     margin: 2px;
     border-radius: 5px;
 
-    @media ${({ theme }) => theme.device.mobile} {
+    @media screen and (max-width: 425px) {
         width: 100%;
     }
 `;

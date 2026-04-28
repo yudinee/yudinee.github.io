@@ -47,29 +47,6 @@ const WaitingProblem = () => {
                 </StyleContentsArea>
             </StyleProject>
 
-            <StyleProject>
-                <StyleContentsArea theme={theme}>
-                    <StyleContentsLeft>
-                        <blockquote>
-                            <StyleProjectTitle><strong style={{fontWeight: 900}}>회고</strong></StyleProjectTitle>
-                        </blockquote>
-                    </StyleContentsLeft>
-                    <StyleContentsRight>
-                        
-                        <StyleContents>
-                            실시간 웨이팅 기능 개발 과정에서 발생한 동시성 문제를 DB 트랜잭션과 Pessimistic Lock을 활용해 해결하며, 처리 안정성과 시스템 신뢰성의 중요성을 깊이 이해했습니다.
-                            또한, 프론트엔드와 백엔드 API 연동 과정에서 비동기 처리와 상태 관리를 직접 구현하며, 사용자 경험과 데이터 일관성을 동시에 고려한 개발 경험을 쌓았습니다.
-                            이번 프로젝트를 통해 고객 편의성과 매장 효율을 동시에 개선하는 실무형 서비스를 설계하고 구현하는 능력을 강화할 수 있었습니다.
-                        </StyleContents>
-                        <StyleContents>
-                            <a href="https://github.com/zero5ive/Tabletopia" target="_blank" rel="noopener noreferrer">📎 GitHub Repository</a>
-                        </StyleContents>
-                        
-                   
-
-                    </StyleContentsRight>
-                </StyleContentsArea>
-            </StyleProject>
         </div>
     )
 }

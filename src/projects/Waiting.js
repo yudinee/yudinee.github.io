@@ -32,11 +32,6 @@ const Waiting = () => {
                             <StyleContent>웨이팅 등록/취소/미루기 기능으로, 직원 업무 효율 향상</StyleContent>
                             <StyleContent>고객은 앱에서 대기 순서 확인 가능</StyleContent>
                         </StyleContents>
-                        <StyleContentsTitle>주요효과</StyleContentsTitle>
-                        <StyleContents>
-                            <StyleContent>고객 편의성 향상: 혼선 없이 대기 가능</StyleContent>
-                            <StyleContent>매장 효율성 향상: 중복 예약 및 업무 중단 최소화</StyleContent>
-                        </StyleContents>
                         <StyleImages>
                             <StyleImage theme={theme} src={TableTopia1} title="테이블토피아1" alt="" style={{width: '400px'}} />
                             <StyleImage theme={theme} src={TableTopia2} title="테이블토피아2" alt="" style={{width: '400px'}} />
